@@ -5,6 +5,7 @@ import "../index.css";
 import { SiteContext } from "../context/siteContext";
 
 const Header = () => {
+
   const {handleClick} = useContext(SiteContext)
   return (
     <div className="flex lg:flex-row flex-col items-center content-center px-20">
